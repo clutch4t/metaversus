@@ -8,6 +8,7 @@ import styles from '../styles';
 import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
+  /* eslint-disable */
   <motion.footer variants={footerVariants} initial="hidden" whileInView="show" className={`${styles.paddings} py-8 relative`}>
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
